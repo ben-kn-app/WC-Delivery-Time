@@ -1,4 +1,4 @@
-=== Plugin Name ===
+=== WC Delivery Time ===
 Contributors: ben_c
 Tags: woocommerce, delivery, expected delivery, delivery time, expected delivery time
 Requires at least: 4.0.0
@@ -7,7 +7,7 @@ Stable tag: 0.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Wordpress Woocommerce plugin to set an estimated delivery time for all products
+Wordpress woocommerce extension to set an estimated delivery time for all products
 
 == Description ==
 
@@ -18,13 +18,13 @@ Failed to find a plugin that would simply show the delivery time on a product le
 This plugin shows, in accordance with the schema.org deliveryLeadTime on every product page. The estimated delivery time can easily be changed in woocommerce - settings - integration. 
 
 This is the first version of the plugin, future updates might include estimated delivery per product and on stock level.
-You can contribute on github via https://github.com/chinib/Woocommerce-Delivery-Time
+You can contribute on github via https://github.com/chinib/WC-Delivery-Time
 
 Have fun.
 
 == Installation ==
 
-1. Via Wordpress - Plugins - Add New search for Woocommerce Delivery Time or manually Upload `wc-delivery-time.zip` 
+1. Via Wordpress - Plugins - Add New search for wc Delivery Time or manually Upload `wc-delivery-time.zip` 
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Configure the settings via woocommerce - settings - integration
 
@@ -44,7 +44,7 @@ Maybe in a future release, currently not, the first release of this plugin adds 
 
 = Can I contribute to this project =
 
-Yes, this plugin is open source and anyone can contribute via github https://github.com/chinib/Woocommerce-Delivery-Time
+Yes, this plugin is open source and anyone can contribute via github https://github.com/chinib/WC-Delivery-Time
 
 == Screenshots ==
 
