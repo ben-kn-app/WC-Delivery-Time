@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: WooCommerce Delivery Time
+ * Plugin Name: wc Delivery Time
  * Plugin URI: http://rawlab.nl/plugin
  * Description: Set an estimated delivery time for all products
  * Author: Ben Chini
@@ -52,8 +52,8 @@ class WC_Delivery_Time_Init {
 			$settings_url = admin_url( 'admin.php?page=wc-settings&tab=integration&section=deliverytime' );
 		}
 	
-		if ( ! defined( 'WOOCOMMERCE_DELIVERY_TIME_SETTINGS_URL' ) ) {
-			define( 'WOOCOMMERCE_DELIVERY_TIME_SETTINGS_URL', $settings_url );
+		if ( ! defined( 'WC_DELIVERY_TIME_SETTINGS_URL' ) ) {
+			define( 'WC_DELIVERY_TIME_SETTINGS_URL', $settings_url );
 		}
 	
 		include_once 'classes/class-wc-delivery-time.php';
@@ -77,7 +77,7 @@ class WC_Delivery_Time_Init {
 	 */
 	function action_links( $links ) {
 		$plugin_links = array(
-			'<a href="' . WOOCOMMERCE_DELIVERY_TIME_SETTINGS_URL . '">' . __( 'Settings', 'wc-delivery-time' ) . '</a>',
+			'<a href="' . WC_DELIVERY_TIME_SETTINGS_URL . '">' . __( 'Settings', 'wc-delivery-time' ) . '</a>',
 		);
 
 		return array_merge( $plugin_links, $links );
